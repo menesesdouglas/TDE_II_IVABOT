@@ -1,0 +1,9 @@
+Para programar em C hoje em dia usando o Dev-C++, é fundamental instalar a versão Embarcadero Dev-C++. O Dev-C++ original não recebe atualizações desde 2005, mas esta versão atualizada suporta o Windows 10/11 e já vem com um compilador moderno (GCC/MinGW) embutido.
+
+1.Baixar o instalador:Use a versão oficial mantida pela Embarcadero. Acesse a página oficial do Embarcadero Dev-C++ no SourceForge ou procure por "Embarcadero Dev-C++" no Google. Clique no botão verde de Download para baixar o arquivo executável (geralmente com o nome terminando em .exe).
+
+2.Executar a instalação:Abra o arquivo baixado. O Windows pode pedir permissão de administrador; clique em "Sim".Escolha o idioma da instalação (como English ou Português). Aceite os termos de licença ("I Agree").Mantenha os componentes padrão selecionados (isso garante que o compilador GCC será instalado). Clique em "Install" e aguarde o fim do processo.
+
+3.Fazer a configuração inicial:Ao abrir o Dev-C++ pela primeira vez, uma janela de configuração aparecerá: Escolha o idioma da interface (você pode selecionar Portuguese (Brazil)). Na próxima tela, você pode personalizar as cores, tema (claro ou escuro) e os ícones.Clique em OK para finalizar.
+
+4.Criar o seu primeiro programa em C: Para testar se tudo está funcionando: No menu superior, clique em Arquivo > Novo > Arquivo Fonte (ou pressione Ctrl + N). Na nova tela em branco, cole o código de teste abaixo.Pressione F11 (ou vá em Executar > Compilar e Executar). O programa pedirá para você salvar o arquivo. Salve-o com o nome teste.c (certifique-se de escolher "C source files" no tipo de arquivo).
