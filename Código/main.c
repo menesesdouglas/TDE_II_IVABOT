@@ -94,6 +94,24 @@ int executarArvoreDecisao(void)
 /* Exibe a recomendação obtida pela árvore de decisão. */
 void exibirRecomendacao(int recomendacao)
 {
+switch (recomendacao) {
+
+    case 1 :
+    	printf("Recomendação 1\n");
+    	break;
+    	
+    case 2 :
+    	printf("Recomendação 2\n");
+    	break;
+    	
+    case 3 :
+    	printf("Recomendação 3\n");
+    	break;
+    	
+    default:
+    	printf("Sem recomendações\n");
+    	break;
+    }
 
 }
 
