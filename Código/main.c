@@ -56,13 +56,23 @@ int cont_recomendacao4;
 /* Apresenta o menu principal da IvaBot. */
 void exibirMenu(void)
 {
-
+    printf("\n============== MENU IVABOT ==============\n");
+    printf("1 - Fazer pedido\n");
+    printf("2 - Falar com atendente\n");
+    printf("3 - Fazer uma reclamacao\n");
+    printf("4 - Consultar informacoes do delivery\n");
+    printf("5 - Encerrar atendimento\n");
+    printf("=========================================\n");
 }
 
 /* Lê e retorna a opção escolhida pelo usuário. */
 int lerOpcaoMenu(void)
 {
+    int opcao;
+    printf("Digite a opcao desejada: ");
+    scanf("%d", &opcao);
 
+    return opcao;
 }
 
 /* Verifica se a opção informada é válida. */
