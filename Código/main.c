@@ -19,6 +19,7 @@
 */
 
 #include <stdio.h>
+#include <string.h>
 #include <locale.h>
 
 
@@ -90,7 +91,7 @@ int validarOpcao(int opcao)
 
 /* Percorre a árvore de decisão até obter uma recomendação. */
 
-int executarArvoreDecisao(menu)
+int executarArvoreDecisao(int menu)
 {
     int recomendacao = 0;
     int pedido, opcao1 = 0, opcao2 = 0, opcao3 = 0;
@@ -305,7 +306,7 @@ int main() {
         opcao_menu = lerOpcaoMenu();
 
         if (validarOpcao(opcao_menu)) {
-            programa_encerrado = executarArvoreDecisao();
+            programa_encerrado = executarArvoreDecisao(opcao_menu);
         }
     }
     
